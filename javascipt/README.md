@@ -1,5 +1,4 @@
-# karma-jasmine-starter
-
+# starter for javascript
 
 ## Prerequisites
 
@@ -19,13 +18,9 @@ npm install
 
 Test all is ok :
 
-```
-npm test
-```
+![npm test output : TOTAL: 1 FAILED, 2 SUCCESS](/npm-test.gif")
 
-you should get this result:
-
-![8 specs with 2 failures](/first-run.png")
+![karma in browser output : TOTAL: 1 FAILED, 2 SUCCESS](/first-run.png")
 
 Tests files must end with `.spec.js` to be ran. 
 
