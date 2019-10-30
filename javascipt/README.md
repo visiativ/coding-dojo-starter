@@ -1,10 +1,12 @@
-# starter for javascript
+# Starter for javascript
 
 ## Prerequisites
 
 * node.js v10+
 * npm v6+
 * VSCode or any other IDE
+
+As an alternative you can use this [online editor](https://playcode.io/466339?tabs=sample.spec.js,preview)
 
 ## Before workshop
 
@@ -24,7 +26,3 @@ Test all is ok :
 
 Tests files must end with `.spec.js` to be ran. 
 
-
-## Alternative
-
-You can use this [online editor](https://playcode.io/466339?tabs=sample.spec.js,preview)
