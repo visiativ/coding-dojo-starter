@@ -19,7 +19,7 @@ If you don't have maven or gradle don't install them, simply use included projec
 
 Clone this project (or export) to your computer.
 
-Test all is ok (Using maven) :
+Test all is ok (Using maven) **prefered** :
 
 ```mvn test``` or for linux users ```./mvnw test``` or for windows users ```mvnw.cmd test```.
 
