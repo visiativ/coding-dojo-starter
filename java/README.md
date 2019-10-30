@@ -1,16 +1,34 @@
-# Java JUnit5
+# Starter for java (JUnit5)
 
 Minimal setup with Java [JUnit5](https://junit.org/junit5/) to get you started.
-
 You can use [gradle](https://gradle.org/) or [maven](https://maven.apache.org/)
 
-## Running Tests
+* java 8+ (testded with openjdk 11.0.2)
+* maven 3.6+ or included mvnw
+* gradle 5.6+ or included gradlew
 
-To execute the tests either run `gradle test`, `mvn test` or run the tests from the IDE you are using
+---
+**NOTE**
 
-## Test Libraries Available from the Get-Go
-- JUnit 5.3.2
+If you don't have maven or gradle don't install them, simply use included project wrapper (**mvnw** , **gradlew**).
 
-This repo was tested with eclipse and idea, if you encounter problems please open a issue or send a pull request.
+---
+
+
+## Before workshop
+
+Clone this project (or export) to your computer.
+
+Test all is ok (Using maven) :
+
+```mvn test``` or for linux users ```./mvnw test``` or for windows users ```mvnw.cmd test```.
+
+![mvn test : Tests run: 3, Failures: 1, Errors: 0, Skipped: 0](/javascipt/mvn-test.gif)
+
+Test all is ok (Using gradle) :
+
+```gradle test``` or for linux users ```./gradlew test``` or for windows users ```gradlew.bat test```.
+
+![gradle test : 3 tests completed, 1 failed](/javascipt/gradlew-test.gif)
 
 Have fun!
