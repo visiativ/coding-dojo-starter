@@ -18,9 +18,9 @@ npm install
 
 Test all is ok :
 
-![npm test output : TOTAL: 1 FAILED, 2 SUCCESS](/npm-test.gif")
+![npm test output : TOTAL: 1 FAILED, 2 SUCCESS](/javascipt/npm-test.gif")
 
-![karma in browser output : TOTAL: 1 FAILED, 2 SUCCESS](/first-run.png")
+![karma in browser output : TOTAL: 1 FAILED, 2 SUCCESS](/javascipt/first-run.png")
 
 Tests files must end with `.spec.js` to be ran. 
 
