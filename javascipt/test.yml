@@ -18,12 +18,12 @@ config:
   # Explicitly set the number of columns
   # or use `auto` to take the current
   # number of columns of your shell
-  cols: 211
+  cols: 112
   
   # Explicitly set the number of rows
   # or use `auto` to take the current
   # number of rows of your shell
-  rows: 57
+  rows: 26
   
   # Amount of times to repeat GIF
   # If value is -1, play once
@@ -49,8 +49,8 @@ config:
   # To hide the title use the value null
   # Don't forget to add a backgroundColor style with a null as type
   frameBox:
-    type: null
-    title: Terminalizer
+    type: solid
+    title: null
     style:
       border: 0px black solid
       # boxShadow: none
@@ -111,39 +111,41 @@ config:
   
 # Records, feel free to edit them
 records:
-  - delay: 694
+  - delay: 687
     content: "\e]0;famaridon@host:~/workspace/moovapps-camp/javascipt\a\e]7;file://host/home/famaridon/workspace/moovapps-camp/javascipt\a\e]0;famaridon@host: ~/workspace/moovapps-camp/javascipt\a\e[01;32mfamaridon@host\e[00m:\e[01;34m~/workspace/moovapps-camp/javascipt\e[01;31m(master)\e[00m$ "
-  - delay: 1233
+  - delay: 1813
     content: 'n'
-  - delay: 192
+  - delay: 423
     content: p
   - delay: 144
     content: m
-  - delay: 392
+  - delay: 113
     content: ' '
-  - delay: 440
+  - delay: 304
     content: t
-  - delay: 104
+  - delay: 96
     content: e
-  - delay: 160
+  - delay: 183
     content: s
-  - delay: 88
+  - delay: 78
     content: t
-  - delay: 1856
+  - delay: 771
     content: "\r\n"
-  - delay: 265
+  - delay: 268
     content: "\r\n> karma-jasmine-starter@1.0.0 test /home/famaridon/workspace/moovapps-camp/javascipt\r\n> karma start karma.conf.js\r\n\r\n"
-  - delay: 330
-    content: "\e[33m30 10 2019 13:27:15.918:WARN [karma]: \e[39mNo captured browser, open http://localhost:9876/\r\n"
+  - delay: 326
+    content: "\e[33m30 10 2019 13:36:27.007:WARN [karma]: \e[39mNo captured browser, open http://localhost:9876/\r\n"
   - delay: 17
-    content: "\e[32m30 10 2019 13:27:15.937:INFO [karma-server]: \e[39mKarma v4.4.1 server started at http://0.0.0.0:9876/\r\n\e[32m30 10 2019 13:27:15.937:INFO [launcher]: \e[39mLaunching browsers Chrome with concurrency unlimited\r\n\e[32m30 10 2019 13:27:15.941:INFO [launcher]: \e[39mStarting browser Chrome\r\n"
-  - delay: 872
-    content: "\e[32m30 10 2019 13:27:16.814:INFO [Chrome 78.0.3904 (Linux 0.0.0)]: \e[39mConnected on socket N5-jrhffc7YHh33NAAAA with id 38012721\r\n"
-  - delay: 135
-    content: "Chrome 78.0.3904 (Linux 0.0.0): Executed 0 of 3\e[32m SUCCESS\e[39m (0 secs / 0 secs)\r\n\e[1A\e[2KChrome 78.0.3904 (Linux 0.0.0): Executed 1 of 3\e[32m SUCCESS\e[39m (0 secs / 0.004 secs)\r\n\e[1A\e[2KChrome 78.0.3904 (Linux 0.0.0): Executed 2 of 3\e[32m SUCCESS\e[39m (0 secs / 0.004 secs)\r\n\e[1A\e[2K\e[31mChrome 78.0.3904 (Linux 0.0.0) fail should always fail FAILED\e[39m\r\n\tError: Expected false to be true.\r\n\t    at <Jasmine>\r\n\t    at UserContext.<anonymous> (src/calculator.spec.js:3:19)\r\n\t    at <Jasmine>\r\nChrome 78.0.3904 (Linux 0.0.0): Executed 3 of 3\e[31m (1 FAILED)\e[39m (0 secs / 0.007 secs)\r\nChrome 78.0.3904 (Linux 0.0.0) fail should always fail FAILED\r\n\tError: Expected false to be true.\r\n\t    at <Jasmine>\r\n\t    at UserContext.<anonymous> (src/calculator.spec.js:3:19)\r\n\t    at <Jasmine>\r\n\e[1A\e[2KChrome 78.0.3904 (Linux 0.0.0): Executed 3 of 3\e[31m (1 FAILED)\e[39m (0.003 secs / 0.007 secs)\r\n\e[31mTOTAL: 1 FAILED, 2 SUCCESS\e[39m\r\nTOTAL: 1 FAILED, 2 SUCCESS\r\n"
-  - delay: 4054
+    content: "\e[32m30 10 2019 13:36:27.026:INFO [karma-server]: \e[39mKarma v4.4.1 server started at http://0.0.0.0:9876/\r\n\e[32m30 10 2019 13:36:27.026:INFO [launcher]: \e[39mLaunching browsers Chrome with concurrency unlimited\r\n\e[32m30 10 2019 13:36:27.029:INFO [launcher]: \e[39mStarting browser Chrome\r\n"
+  - delay: 823
+    content: "\e[32m30 10 2019 13:36:27.852:INFO [Chrome 78.0.3904 (Linux 0.0.0)]: \e[39mConnected on socket KmGoOI-Z6VW1dmVLAAAA with id 75946041\r\n"
+  - delay: 113
+    content: "Chrome 78.0.3904 (Linux 0.0.0): Executed 0 of 3\e[32m SUCCESS\e[39m (0 secs / 0 secs)\r\n\e[1A\e[2KChrome 78.0.3904 (Linux 0.0.0): Executed 1 of 3\e[32m SUCCESS\e[39m (0 secs / 0 secs)\r\n\e[1A\e[2K\e[31mChrome 78.0.3904 (Linux 0.0.0) fail should always fail FAILED\e[39m\r\n\tError: Expected false to be true.\r\n\t    at <Jasmine>\r\n\t    at UserContext.<anonymous> (src/calculator.spec.js:3:19)\r\n\t    at <Jasmine>\r\nChrome 78.0.3904 (Linux 0.0.0): Executed 2 of 3\e[31m (1 FAILED)\e[39m (0 secs / 0.004 secs)\r\nChrome 78.0.3904 (Linux 0.0.0) fail should always fail FAILED\r\n\tError: Expected false to be true.\r\n\t    at <Jasmine>\r\n\t    at UserContext.<anonymous> (src/calculator.spec.js:3:19)\r\n\t    at <Jasmine>\r\n\e[1A\e[2KChrome 78.0.3904 (Linux 0.0.0): Executed 3 of 3\e[31m (1 FAILED)\e[39m (0 secs / 0.004 secs)\r\n\e[1A\e[2KChrome 78.0.3904 (Linux 0.0.0): Executed 3 of 3\e[31m (1 FAILED)\e[39m (0.004 secs / 0.004 secs)\r\n\e[31mTOTAL: 1 FAILED, 2 SUCCESS\e[39m\r\nTOTAL: 1 FAILED, 2 SUCCESS\r\n"
+  - delay: 2251
     content: ^C
-  - delay: 170
-    content: "\r\n\e]0;famaridon@host:~/workspace/moovapps-camp/javascipt\a\e]7;file://host/home/famaridon/workspace/moovapps-camp/javascipt\a\e]0;famaridon@host: ~/workspace/moovapps-camp/javascipt\a\e[01;32mfamaridon@host\e[00m:\e[01;34m~/workspace/moovapps-camp/javascipt\e[01;31m(master)\e[00m$ "
-  - delay: 150
+  - delay: 147
+    content: "\r\n\e]0;famaridon@host:~/workspace/moovapps-camp/javascipt\a\e]7;file://host/home/famaridon/workspace/moovapps-camp/javascipt\a"
+  - delay: 5
+    content: "\e]0;famaridon@host: ~/workspace/moovapps-camp/javascipt\a\e[01;32mfamaridon@host\e[00m:\e[01;34m~/workspace/moovapps-camp/javascipt\e[01;31m(master)\e[00m$ "
+  - delay: 464
     content: "logout\r\n"
