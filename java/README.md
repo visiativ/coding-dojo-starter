@@ -23,12 +23,12 @@ Test all is ok (Using maven) :
 
 ```mvn test``` or for linux users ```./mvnw test``` or for windows users ```mvnw.cmd test```.
 
-![mvn test : Tests run: 3, Failures: 1, Errors: 0, Skipped: 0](/javascipt/mvn-test.gif)
+![mvn test : Tests run: 3, Failures: 1, Errors: 0, Skipped: 0](/java/mvn-test.gif)
 
 Test all is ok (Using gradle) :
 
 ```gradle test``` or for linux users ```./gradlew test``` or for windows users ```gradlew.bat test```.
 
-![gradle test : 3 tests completed, 1 failed](/javascipt/gradlew-test.gif)
+![gradle test : 3 tests completed, 1 failed](/java/gradlew-test.gif)
 
 Have fun!
