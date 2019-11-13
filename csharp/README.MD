@@ -6,10 +6,13 @@ Visual Studio 2017 minimum
 
 ## Avant l'atelier
 
-Télécharger le projet csharp.
-Ouvrir la solution avec Visual Studio.
-Générer la solution.
-Utiliser l'explorateur de tests de Visual Studio pour lancer les tests. Il y a un seul test et il échoue.
+* Télécharger le projet csharp.
+* Ouvrir la solution avec Visual Studio.
+* Générer la solution.
+* Utiliser l'explorateur de tests de Visual Studio pour lancer les tests. Il y a un seul test et il échoue.
+
+![Lancer les tests](/csharp/lancer_tests.png)
+![Un test échoue](/csharp/test_results.png)
 
 ## Organisation de la solution
 
