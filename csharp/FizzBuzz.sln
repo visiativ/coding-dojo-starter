@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.MD = README.MD
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{F6A1ED30-E20F-4DCB-9741-E586A15E20D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Tests", "Calculator.Tests\Calculator.Tests.csproj", "{CC8A8645-F9D5-42BC-8257-AA53F828F60B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +30,14 @@ Global
 		{D8236E65-E11A-4AEE-9EAB-EC14E19A4ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8236E65-E11A-4AEE-9EAB-EC14E19A4ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8236E65-E11A-4AEE-9EAB-EC14E19A4ADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6A1ED30-E20F-4DCB-9741-E586A15E20D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A1ED30-E20F-4DCB-9741-E586A15E20D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A1ED30-E20F-4DCB-9741-E586A15E20D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A1ED30-E20F-4DCB-9741-E586A15E20D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC8A8645-F9D5-42BC-8257-AA53F828F60B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC8A8645-F9D5-42BC-8257-AA53F828F60B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC8A8645-F9D5-42BC-8257-AA53F828F60B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC8A8645-F9D5-42BC-8257-AA53F828F60B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
