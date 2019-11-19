@@ -9,17 +9,15 @@ Visual Studio 2017 minimum
 * Télécharger le projet csharp.
 * Ouvrir la solution avec Visual Studio.
 * Générer la solution.
-* Utiliser l'explorateur de tests de Visual Studio pour lancer les tests. Il y a un seul test et il échoue.
+* Utiliser l'explorateur de tests de Visual Studio pour lancer les tests. Il y a 3 tests dont un qui échoue.
 
 ![Lancer les tests](/csharp/lancer_tests.png)
 ![Un test échoue](/csharp/test_results.png)
 
-## Organisation de la solution
+### Calculator et Calculator.Tests
 
-### FizzBuzz
+Ces projets contiennent un exemple de tests unitaires sur la classe Calculator.
 
-Ce projet contient la classe FizzBuzzer qui possède la méthode FizzBuzz à tester.
+### FizzBuzz et FizzBuzz.Tests
 
-### FizzBuzz.Tests
-
-Ce projet contient les tests unitaires.
+Ces projets sont ceux où vous allez créer vos classes et tests unitaires.
