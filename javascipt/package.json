@@ -8,9 +8,7 @@
   },
   "keywords": [],
   "license": "MIT",
-  "dependencies": {
-    "terminalizer": "^0.6.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~4.2.1",
